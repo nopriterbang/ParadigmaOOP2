@@ -8,4 +8,9 @@ public:
     }
 };
 
-class deriveredClass
+class deriveredClass : public baseClass {
+public:
+    void perkenalan(){
+        cout "";
+    }
+}
