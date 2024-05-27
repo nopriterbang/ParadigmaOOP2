@@ -11,6 +11,13 @@ public:
 class deriveredClass : public baseClass {
 public:
     void perkenalan(){
-        cout "";
+        cout << "Halo saya Function dari derivered class";
     }
+};
+
+int main() {
+    deriveredClass a;
+    a.perkenalan();
+
+    return 0;
 }
