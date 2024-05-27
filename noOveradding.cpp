@@ -14,3 +14,10 @@ public:
         cout << "Halo saya Function dari derivered class";
     }
 };
+
+int main() {
+    deriveredClass a;
+    a.perkenalan();
+
+    return 0;
+}
